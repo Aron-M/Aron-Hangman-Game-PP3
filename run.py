@@ -80,7 +80,6 @@ def hangman():
      
 """
 	]
-	words = ['balloon', 'aeroplane', 'computer', 'corridor', 'television', 'university', 'paraglide', 'submarine', 'ferriswheel']
 	word = random.choice(words).lower()
 
 

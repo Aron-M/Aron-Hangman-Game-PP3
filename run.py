@@ -1,3 +1,5 @@
+import gspread
+import random
 from google.oauth2.service_account import Credentials
 
 SCOPE = [
@@ -6,7 +8,15 @@ SCOPE = [
     "https://www.googleapis.com/auth/drive"
     ]
 
-import random
+CREDS = Credentials.from_service_account_file('creds.json')
+SCOPED_CREDS = CREDS.with_scopes(SCOPE)
+GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
+SHEET = GSPREAD_CLIENT.open('word_library')
+
+words = SHEET.worksheet('words')
+data = words.get_all_values()
+print(words)
+
 def hangman():
 	hangman1 = [
 	"""

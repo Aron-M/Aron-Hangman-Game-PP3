@@ -1,6 +1,7 @@
 import gspread
-import random
 from google.oauth2.service_account import Credentials
+import random
+
 
 SCOPE = [
     "https://www.googleapis.com/auth/spreadsheets",

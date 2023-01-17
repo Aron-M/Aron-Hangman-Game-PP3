@@ -120,3 +120,5 @@ if __name__ == '__main__':
         if user == 'n' or user == 'no':
             print('Thanks for playing, see you next time')
             exit()
+        else :
+            print('Please type y or yes to play, else type n or no to quit.')

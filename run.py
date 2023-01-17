@@ -73,7 +73,6 @@ def hangman_game():
     """
     ]
     words = words_from_file_reader()
-    print(words)
     word = random.choice(words).lower().strip()
 
     guessed_right = []

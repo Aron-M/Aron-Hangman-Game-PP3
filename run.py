@@ -88,7 +88,7 @@ def hangman_game():
             else:
                 output += '_'
         if output == word:
-            print(f'Hey fantastic YOU WON!! You guessed the word correctly')
+            print(f'Hey fantastic YOU WON!! You guessed the word {output} correctly')
             return
         print("Try to guess the correct word: ", output)
         print("You have ", tries, " chances left")

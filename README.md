@@ -47,3 +47,13 @@ Hangmnan is a fun and interactive game where the user plays a word-guessing game
 * If user guesses the correct word within the designated amount of tries, they will win the game and be congratulated.
    
    <img src="markdown_images/pp3markdown7.png" width = 30% height = 30% alt="win-game" />
+
+## TESTING
+
+* I have manually tested the app within the local terminal as well as the Code Intitute Heroku terminal.
+* PEP8 Linter was used to look for potential bugs and errors.
+* I gave invalid, repetitive and blank inputs to make sure the correct return would be given to the user.
+  :---:|:---:
+ ![](markdown_images/pp3markdown5.png) | ![](markdown_images/pp3markdown4.png)
+
+ 

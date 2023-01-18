@@ -1,4 +1,8 @@
 import random
+import pycodestyle
+style_checker = pycodestyle.____(run.py)
+result = style_checker.check_files
+print(result.messages)
 
 
 def words_from_file_reader(filepath='words.txt'):

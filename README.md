@@ -13,7 +13,7 @@ Hangmnan is a fun and interactive game where the user plays a word-guessing game
 
 
 ### Application Goals
-* Create a wordz based guessing challenge for the user.
+* Create a words based guessing challenge for the user.
 * Provide the user with an interface to input required actions for the game to be played.
 * Include visuals of the user's current status within the game as they play.
 * Inform the user when they have used all their chances, or if they have won the game.
@@ -21,10 +21,29 @@ Hangmnan is a fun and interactive game where the user plays a word-guessing game
 * Let the user be able to revert back to the start if they choose play the game again.
 
 ### How to Play/Use the App
-* User is greeted with a question whether they want to start the game by pressing y or yes
+* User is greeted with a question whether they want to start the game by pressing y or yes.
+
+   <img src="markdown_images/pp3markdown1.png" width = 30% height = 30% alt="start-game" />
+
 * Message prompts user to to guess the correct randomly generated word and displays a line depicting the length of word.
+  (See above image as example)
+
 * User is given 7 chances to guess the wrong letter. On the 8th wrong guess, user loses the game.
+  (See above image as example)
+
 * Upon guessing each correct letter, they will appear in their respective position in the word.
+
+  <img src="markdown_images/pp3markdown2.png" width = 30% height = 30% alt="guessed-right" />
+
+
 * If user guesses the wrong letter, part of a picture will be displayed of a hanging man. 
+
+   <img src="markdown_images/pp3markdown3.png" width = 30% height = 30% alt="guessed-wrong" />
+
+
 * Each wrong guess completes the picture further.  
+  (See above image as example)
+
 * If user guesses the correct word within the designated amount of tries, they will win the game and be congratulated.
+   
+   <img src="markdown_images/pp3markdown7.png" width = 30% height = 30% alt="win-game" />

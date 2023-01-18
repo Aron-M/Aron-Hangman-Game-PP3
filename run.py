@@ -1,8 +1,4 @@
 import random
-import pycodestyle
-style_checker = pycodestyle.____(run.py)
-result = style_checker.check_files
-print(result.messages)
 
 
 def words_from_file_reader(filepath='words.txt'):
@@ -92,7 +88,7 @@ def hangman_game():
             else:
                 output += '_'
         if output == word:
-            print(f'Hey fantastic YOU WON!! You guessed the word {output} correctly')
+            print(f'Hey fantastic YOU WON!! You guessed the word {output}')
             return
         print("Try to guess the correct word: ", output)
         print("You have ", tries, " chances left")
